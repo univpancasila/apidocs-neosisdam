@@ -59,6 +59,7 @@ User don't have access to the resource.
 
 | Endpoint                            | Method | Request                                | Description                           |
 |-------------------------------------|--------|----------------------------------------|---------------------------------------|
+| /login                              | `POST` | {username,password}                    | Authentication                        |
 | /user                               | `GET`  | -                                      | Get User Authentication Information   |
 | /master/pegawai/get-all             | `GET`  | query params: `filter-pegawai` (dosen) | Get Employee Information              |
 | /master/pegawai/dosen/{kode_dosen}  | `GET`  | url params `kode_dosen`                | Get Lecturer Detail Information       |
