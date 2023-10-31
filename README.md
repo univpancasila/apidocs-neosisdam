@@ -59,7 +59,7 @@ Bearer Token Not Found or Not Provided yet.
 
 User don't have access to the resource.
 
-## API Endpoint Documentation
+## API General Endpoint Documentation
 **Base URL:** `https://neosisdam.univpancasila.ac.id/api/v1`
 
 | Endpoint                            | Method | Request                                | Description                           |
