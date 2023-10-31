@@ -7,6 +7,7 @@ This document provides information about the HTTP status codes and their corresp
 | Status Code  | Description                               |
 |--------------|-------------------------------------------|
 | 00           | Successfully Retrieve Data                |
+| 01           | Something Went Wrong (Server)             | 
 | 10           | Username or Email Not Found               |
 | 11           | Account Should be Activated in Neo Sisdam |
 | 12           | Username/Email/Password wrong             |
@@ -21,6 +22,10 @@ This document provides information about the HTTP status codes and their corresp
 ### 00 - OK
 
 The request was successful, and the server has returned the requested data.
+
+### 01 - Server Error
+
+Something Went Wrong on the server.
 
 ### 10 - Account Not Found
 
