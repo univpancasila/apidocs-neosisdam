@@ -62,7 +62,7 @@ User don't have access to the resource.
 ## API General Endpoint Documentation
 **Base URL:** `https://neosisdam.univpancasila.ac.id/api/v1`
 
-| Endpoint                            | Method | Request                                | Description                           |
+| Endpoint                            | Method | Request/Param                          | Description                           |
 |-------------------------------------|--------|----------------------------------------|---------------------------------------|
 | /login                              | `POST` | {username,password}                    | Authentication                        |
 | /user                               | `GET`  | -                                      | Get User Authentication Information   |
@@ -77,6 +77,17 @@ User don't have access to the resource.
 - When making API requests, always check the HTTP status code in the response to determine the outcome of your request.
 - Use the status code and description to troubleshoot issues with your API requests.
 - Refer to our API documentation for more specific information on each endpoint and its expected responses.
+
+## API Wifi Management Documentation
+
+| Endpoint                            | Method | Request/Params                         | Description                           |
+|-------------------------------------|--------|----------------------------------------|---------------------------------------|
+| /wifi-management/                   | `GET`  | -                                      | Get All Wifi Account                  |
+| /wifi-management/check-available    | `POST` | {user,type(username/email) }           | Check Username/Email availability     |
+| /wifi-management/create-account     | `POST` | {user,password,type (username/email)}  | Create Wifi Account                   |
+| /wifi-management/disable-account    | `POST` | {account_id, rule (yes/no) }           | Disable Wifi Account                  |
+| /wifi-management/change-password    | `POST` | {account_id,new_password)              | Change Wifi Password                  |
+
 
 # Using OAuth
 This document provides information about how to use OAuth NeoSisdam to make user easily access your website using neo account.
