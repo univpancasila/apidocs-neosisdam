@@ -69,6 +69,9 @@ User don't have access to the resource.
 | /master/pegawai/get-all             | `GET`  | query params: `filter-pegawai` (dosen) | Get Employee Information              |
 | /master/pegawai/dosen/{kode_dosen}  | `GET`  | url params `kode_dosen`                | Get Lecturer Detail Information       |
 | /master/pegawai/detail/{id_pegawai} | `GET`  | url params `id_pegawai`                | Get Employee Detail Information       |
+| /master/unitkerja/get-all           | `GET`  |                                        | Get Unit Kerja Information            |
+| /master/subunitkerja/get-all        | `GET`  |                                        | Get Sub Unit Kerja Information        |
+| /master/statuskepegawaian/get-all   | `GET`  |                                        | Get Status Kepegawaian Information    |
 
 
 
